@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 20px;
+	background: #161515 !important;
+}
+/*.col-created{
+	height: 370px !important;
+	display: block;
+	//position: absolute;
+}*/
+.size{
+	width: 50px !important;
+	height: 50px !important;
+	margin-right: 0 !important;
+	text-transform: uppercase !important;
+	/*text-decoration: bold;*/
+}
+.col {
+    flex: 0 0 0%;
+}
+.float-right{
+	align-content: right;
+	text-align: right;
+	font-size: 20px;
+}
+.btn{
+	font-size: 38px;
+	margin-top: -12px;
+}
+.center-align{
+	text-align: center !important;
+}
+.heading{
+	text-transform: uppercase;
+	color: white;
+}
+.content{
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+}
+.row1{
+	margin-left: 20px;
+}
+.container{
+	padding-bottom: -10px;
+}
+.keyboard_wrapper {
+    width: 700px;
+    padding: 25px;
+    border-radius: 15px;
+	margin: auto;
+	padding: 10px;
+	position: sticky;
+}
+.keyboard_wrapper .display {
+    position: relative;
+    font-size: 18px;
+    font-family: inherit;
+    height: 200px;
+    border-radius: 15px;
+    height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.keyboard_wrapper .key {
+    margin-top: 20px;
+    text-transform: lowercase;
+    user-select: none;
+}
+.keyboard_wrapper .key .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.keyboard_wrapper .key .row span {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.1s;
+}
+.keyboard_wrapper .key .row span.space {
+    width: calc(50px * 9.4);
+}
+.keyboard_wrapper .key .row span.active,
+.keyboard_wrapper .key .row span:hover {
+    border-color: grey;
+    border-width: 2px;
+    background-color: grey;
+}
+span{
+	background-color: #a9a5a5;
+	text-transform: uppercase;
+	border-radius: 25px;
+}

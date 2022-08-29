@@ -5,6 +5,7 @@
 	$index = rand(0,$len-1);
 	$finalWord = $data[$index];
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
